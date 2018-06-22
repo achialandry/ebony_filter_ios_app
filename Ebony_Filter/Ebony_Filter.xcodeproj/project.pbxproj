@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5074A25520D4738000F7E096 /* FilterListTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5074A25420D4738000F7E096 /* FilterListTypes.swift */; };
+		5074A25720D5090E00F7E096 /* jovaughn-stephens-559072-unsplash.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5074A25620D5090D00F7E096 /* jovaughn-stephens-559072-unsplash.jpg */; };
 		50CE414F20D09852007FF7B9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50CE414E20D09852007FF7B9 /* AppDelegate.swift */; };
 		50CE415120D09852007FF7B9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50CE415020D09852007FF7B9 /* ViewController.swift */; };
 		50CE415420D09852007FF7B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50CE415220D09852007FF7B9 /* Main.storyboard */; };
@@ -15,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5074A25420D4738000F7E096 /* FilterListTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterListTypes.swift; sourceTree = "<group>"; };
+		5074A25620D5090D00F7E096 /* jovaughn-stephens-559072-unsplash.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "jovaughn-stephens-559072-unsplash.jpg"; sourceTree = "<group>"; };
 		50CE414B20D09852007FF7B9 /* Ebony_Filter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ebony_Filter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		50CE414E20D09852007FF7B9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		50CE415020D09852007FF7B9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -38,6 +42,7 @@
 		50CE414220D09851007FF7B9 = {
 			isa = PBXGroup;
 			children = (
+				5074A25620D5090D00F7E096 /* jovaughn-stephens-559072-unsplash.jpg */,
 				50CE414D20D09852007FF7B9 /* Ebony_Filter */,
 				50CE414C20D09852007FF7B9 /* Products */,
 			);
@@ -54,6 +59,7 @@
 		50CE414D20D09852007FF7B9 /* Ebony_Filter */ = {
 			isa = PBXGroup;
 			children = (
+				5074A25420D4738000F7E096 /* FilterListTypes.swift */,
 				50CE414E20D09852007FF7B9 /* AppDelegate.swift */,
 				50CE415020D09852007FF7B9 /* ViewController.swift */,
 				50CE415220D09852007FF7B9 /* Main.storyboard */,
@@ -123,6 +129,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				50CE415920D0985F007FF7B9 /* LaunchScreen.storyboard in Resources */,
+				5074A25720D5090E00F7E096 /* jovaughn-stephens-559072-unsplash.jpg in Resources */,
 				50CE415620D0985F007FF7B9 /* Assets.xcassets in Resources */,
 				50CE415420D09852007FF7B9 /* Main.storyboard in Resources */,
 			);
@@ -135,6 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5074A25520D4738000F7E096 /* FilterListTypes.swift in Sources */,
 				50CE415120D09852007FF7B9 /* ViewController.swift in Sources */,
 				50CE414F20D09852007FF7B9 /* AppDelegate.swift in Sources */,
 			);
@@ -280,6 +288,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-2";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Ebony_Filter/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -297,6 +306,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-2";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Ebony_Filter/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
